@@ -11,7 +11,6 @@ main color #4472C4;
    }
 }
 
-
 .header{
    position: fixed;
    z-index: 1;
@@ -24,10 +23,12 @@ main color #4472C4;
    width: 100%;
    display: flex;
    align-items: center;
-   justify-content: space-between;
    margin: 0px 45px 0px 45px;
 }
 
+.header__logo span{
+   width: 130px;
+}
 
 .left{
    font-size: 36px;
@@ -44,3 +45,10 @@ main color #4472C4;
    font-Family: "Noto Sans KR, sans-serif";
    font-size: 16px;
 }
+
+.btn__contents {
+   display: flex;
+   justify-content: flex-end;
+}
+
+
