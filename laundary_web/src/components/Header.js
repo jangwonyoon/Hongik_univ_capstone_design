@@ -29,17 +29,31 @@ const Header = () => {
 
 	const classes  = useStyles();
 
+	/* 링크 모음 */
 	const memberLink = "https://www.notion.so/Framework-a0b51c5f08694cde8de57660e53be9f7";
+	const ownerLink = "http://edit0.dothome.co.kr/makeweb/web_o_login.php";
+	const userLink = "http://edit0.dothome.co.kr/makeweb/web_searching.php";
 	
 	return(
 		<Grid container className = "header">
 			<Grid className="header__content">
-				<a href="#">
-					<img src={name__main} style={{width:"25%" , height:""}}/>
-				</a>
+				<Grid xs={3} className="header__logo">
+					<a href="#">
+						<img src={name__main} style={{width:"25%"}}/>
+					</a>
+				</Grid>
+				
+			<Grid xs={9} className="btn__contents">
 				<Button className="right" >
-					<a href={memberLink} className={classes.member}>멤버 소개</a>
+					<a href={ownerLink} >사장님 사이트</a>
 				</Button>
+				<Button className="right" >
+					<a href={memberLink} >멤버 소개</a>
+				</Button>
+				<Button className="right" >
+					<a href={userLink} >검색</a>
+				</Button>
+			</Grid>
 			</Grid>
 		</Grid>
 	)

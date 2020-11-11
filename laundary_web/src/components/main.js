@@ -42,7 +42,6 @@ const Main = () => {
 						</p>
 					</Grid>
 					<Grid className="wrapper">
-
 						<p className = "laudaryContent__decription" style={{textAlign:"center", width:"50%"}}> 
 						COVID-19(코로나바이러스감염증)과 IT 기술 향상에 따라 최근 언택트 시대와 산업이 새로이 도래하고 있습니다. 최근 대형 세탁 산업이 새로 생겨나면서 소상공인 세탁 업계의 소비 감소 및 고령화가 발생하고 있습니다. 저희 세탁이는 세탁 산업 소상공인의 소비 감소와 언택트 산업, 배달 업계의 호황 접목을 통해 기존에 없던 소상공인 세탁 업계의  소비 향상을 위한 세탁 서비스 애플리케이션을 개발하였습니다.
 						</p>
